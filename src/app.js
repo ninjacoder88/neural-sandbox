@@ -1,9 +1,12 @@
 const { Neuron } = require("./neuron");
 
-const in1 = new Neuron(-1.0);
-const in2 = new Neuron(1.0);
-const in3 = new Neuron(1.0);
-const in4 = new Neuron(-1.0);
+graph.initialize([0.5, 0.0, 0.75, -0.75])
+    .addLayer([[1.0, 0.0, 1.0, 0.0], []]);
+
+const in1 = new Neuron(0.5);
+const in2 = new Neuron(0.0);
+const in3 = new Neuron(0.75);
+const in4 = new Neuron(-0.75);
 
 
 const l1n1 = new Neuron();
